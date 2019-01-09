@@ -1,3 +1,7 @@
+//If button is pressed it will show in Logcat
+// by DeepeshSengar
+
+
 package com.example.ics.interactivedemo;
 
 import android.support.v7.app.AppCompatActivity;
