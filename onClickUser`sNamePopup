@@ -1,0 +1,27 @@
+//When user enter his name and press ok button, Popup will appear with entered name
+//by DeepeshSengar
+
+package com.usernamepassword.ics.onclickuserpopup;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    public void clickfunction(View view){
+
+        EditText naame = (EditText) findViewById(R.id.naame);
+
+        Toast.makeText(this, "Hello! " + naame.getText().toString(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
