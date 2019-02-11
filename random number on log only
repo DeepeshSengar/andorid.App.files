@@ -1,0 +1,17 @@
+  int randomnumber;
+
+    public void guess(View view){
+
+        Log.i("Alert:", Integer.toString(randomnumber));
+    }
+    
+    and
+    
+    Type this in onCreate:::::::
+    
+    Random rand = new Random();
+
+     // Obtain a number between [0 - 20].
+        randomnumber = rand.nextInt(20) + 1;
+        
+// Random guess will be there between 0 to 20 . if its not (20) + 1 then it will guess between 0 to 19
